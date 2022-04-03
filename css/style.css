@@ -1,0 +1,139 @@
+Header {
+
+    position: fixed;
+    width: 100%;
+    height: 84px;
+    background-color: #007765;
+    top: 0;
+    left: 0;
+    z-index: 49;
+}
+
+
+.header-inside {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 55px 0 55px;
+
+}
+
+nav a{
+    font-size: 24px;
+    margin-left: 12px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+
+
+.anchors{
+    font-size: 24px;
+    margin-left: 12px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.piper {
+    display: flex;
+    margin-top: 84px;
+    background: url(../img/image-8.png) 0 0 / cover no-repeat;
+    min-height: 403px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1219px;
+
+}
+
+.piper-basic {
+    
+    color: white  ;
+    
+    font-size: 72px;
+    font-weight: 500;
+
+}
+
+.the_problem {
+    position: relative;
+
+    border: 0px;
+    background-color: wheat;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1219px;
+}
+
+.kok_bloc_1 {
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 32px;
+}
+
+.kok_bloc {
+    margin: 0 auto;
+    position: relative;
+    min-height: 450px;
+    background: url(../img/image-9.png)0 0 / cover no-repeat;
+    justify-content: center;
+    text-align: center;
+}
+
+.kok_bloc_soz {
+    color: white;
+    font-size: 48px;
+
+    max-height: 893px;
+
+}
+
+.Introducing_bloc {
+    max-height: 1219px;
+}
+
+.Introducing {
+    text-align: center;
+    font-size: 64px;
+    color: #007765;
+
+}
+
+.Introducing_SOZ {
+    font-size: 32px;
+}
+
+
+
+.logo_2 {
+    float: left;
+}
+
+.the_bloc {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pod_bloc {
+    flex-basis: 33.333%;
+    text-align: center;
+}
+
+.pod_bloc_1 {
+    font-size: 24px;
+    color: #007765;
+}
+
+.pod_bloc_2 {
+    font-style: italic;
+    font-size: 18px;
+
+}
