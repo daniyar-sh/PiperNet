@@ -1,8 +1,9 @@
-body{
-    font-family:Roboto;
+body {
+    font-family: Roboto;
+    margin: 0;
 }
 Header {
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -20,7 +21,6 @@ Header {
     width: 100%;
     margin: 0 auto;
     padding: 0 55px 0 55px;
-
 }
 
 nav a{
@@ -28,7 +28,6 @@ nav a{
     margin-left: 12px;
     color: #fff;
     text-decoration: none;
-
 }
 
 .piper {
@@ -37,33 +36,32 @@ nav a{
     min-height: 403px;
     align-items: center;
     justify-content: center;
-    
     margin: 0 auto;
-
 }
 
 .piper-basic {
     color: white  ;
     font-size: 72px;
     font-weight: 500;
-
 }
 
-.the_problem{
+.the_problem {
     padding-bottom: 92px;
     background-color: #EEEEEE;;
 }
-h1{
+
+h1 {
     padding-top: 48px;
     margin: 0;
     text-align: center;
     font-size: 64px;
     color: #007765;
 }
-p{
+
+p {
     font-weight: 400;
     font-size: 32px;
-l   ine-height: 38px;
+    line-height: 38px;
     margin-bottom: 0;
 }
 
@@ -74,16 +72,17 @@ l   ine-height: 38px;
     margin: 0 auto;
     max-width: 1219px;
 }
-.container{
+
+.container {
     margin: 0 auto;
     max-width: 1219px;
 }
+
 .kok_bloc {
     display: flex;
     margin: 0 auto;
     min-height: 450px;
-    background: url(../img/image-9.png)0 0 / cover no-repeat;
-    
+    background: url(../img/image-9.png) 0 0 / cover no-repeat;
 }
 
 .kok_bloc_1 {
@@ -99,32 +98,28 @@ l   ine-height: 38px;
     font-style: italic;
 }
 
-.Introducing_bloc {
+.introducing_bloc {
     max-height: 1219px;
     padding-bottom: 92px;
 }
 
-
-
-.Introducing_SOZ {
+.introducing_soz {
     font-size: 32px;
 }
-
-
 
 .logo_2 {
     float: left;
 }
 
-.tht_team{
+.tht_team {
     background-color: #EEEEEE;
     padding-bottom: 112px;
 }
+
 .the_bloc {
     padding-top: 56px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .pod_bloc {
@@ -140,21 +135,22 @@ l   ine-height: 38px;
 .pod_bloc_2 {
     font-style: italic;
     font-size: 18px;
-
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:#333333;
     min-height: 176px;
 }
-.footer-basic{
+
+.footer-basic {
     width: 540px;
     height: 64px;
 }
-h3{
+
+h3 {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
