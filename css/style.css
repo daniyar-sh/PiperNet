@@ -1,6 +1,11 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
 Header {
-
-    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 84px;
     background-color: #007765;
@@ -9,13 +14,13 @@ Header {
     z-index: 49;
 }
 
-
 .header-inside {
     display: flex;
     justify-content: space-between;
+    max-width: 1219px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 55px 0 55px;
-
 }
 
 nav a{
@@ -23,45 +28,49 @@ nav a{
     margin-left: 12px;
     color: #fff;
     text-decoration: none;
-
-}
-
-
-
-
-.anchors{
-    font-size: 24px;
-    margin-left: 12px;
-    color: white;
-    text-decoration: none;
-
 }
 
 .piper {
     display: flex;
-    margin-top: 84px;
     background: url(../img/image-8.png) 0 0 / cover no-repeat;
     min-height: 403px;
     align-items: center;
     justify-content: center;
-    max-width: 1219px;
-
+    margin: 0 auto;
 }
 
 .piper-basic {
-    
     color: white  ;
-    
     font-size: 72px;
     font-weight: 500;
-
 }
 
 .the_problem {
-    position: relative;
+    padding-bottom: 92px;
+    background-color: #EEEEEE;;
+}
 
-    border: 0px;
-    background-color: wheat;
+h1 {
+    padding-top: 48px;
+    margin: 0;
+    text-align: center;
+    font-size: 64px;
+    color: #007765;
+}
+
+p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+}
+
+.kok_bloc-Centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1219px;
 }
 
 .container {
@@ -69,57 +78,48 @@ nav a{
     max-width: 1219px;
 }
 
-.kok_bloc_1 {
-    justify-content: center;
-    align-items: center;
-}
-
-p {
-    font-size: 32px;
-}
-
 .kok_bloc {
+    display: flex;
     margin: 0 auto;
-    position: relative;
     min-height: 450px;
-    background: url(../img/image-9.png)0 0 / cover no-repeat;
-    justify-content: center;
-    text-align: center;
+    background: url(../img/image-9.png) 0 0 / cover no-repeat;
+}
+
+.kok_bloc_1 {
+    width: 883px;
+    height: 228px;
 }
 
 .kok_bloc_soz {
+    margin-top: 0;
+    text-align: center;
     color: white;
     font-size: 48px;
-
-    max-height: 893px;
-
+    font-style: italic;
 }
 
-.Introducing_bloc {
+.introducing_bloc {
     max-height: 1219px;
+    padding-bottom: 92px;
 }
 
-.Introducing {
-    text-align: center;
-    font-size: 64px;
-    color: #007765;
-
-}
-
-.Introducing_SOZ {
+.introducing_soz {
     font-size: 32px;
 }
-
-
 
 .logo_2 {
     float: left;
 }
 
+.tht_team {
+    background-color: #EEEEEE;
+    padding-bottom: 112px;
+}
+
 .the_bloc {
+    padding-top: 56px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .pod_bloc {
@@ -135,5 +135,25 @@ p {
 .pod_bloc_2 {
     font-style: italic;
     font-size: 18px;
+}
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#333333;
+    min-height: 176px;
+}
+
+.footer-basic {
+    width: 540px;
+    height: 64px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
 }
